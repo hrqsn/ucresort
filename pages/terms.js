@@ -35,10 +35,10 @@ export default function Terms () {
             <li>Discord Inc.</li>
             <li>Google LLC</li>
             <li>Microsoft Corporation</li>
-            <li>Mojang AB</li>
+            <li>Mojang Studios</li>
           </ul>
           <h4>3. プラットフォームについて</h4>
-          <p>(1) UCRはMojang ABのゲームである「Minecraft (Bedrock Edition）」において展開している仮想テーマパークプロジェクト及びサービスです。</p>
+          <p>(1) UCRはMojang Studiosのゲームである「Minecraft (Bedrock Edition）」において展開している仮想テーマパークプロジェクト及びサービスです。</p>
           <p>(2) UCR FAN及びUCR FAN CLUBはLINE株式会社のサービスである「LINEオープンチャット」及びDiscord Inc.のサービスである「Discord」において展開しているコミュニティープログラムです。</p>
           <h4>4. 情報収集について</h4>
           <p>UCRが展開するプログラム、サービスの利用に伴って、UCRが収集できる全ての情報を取得し、記録、保管します。これらは、プログラム及びサービスの運営品質向上のために利用します。また、UCRの利用するプラットフォームにより、収集が行われている場合があります。</p>
