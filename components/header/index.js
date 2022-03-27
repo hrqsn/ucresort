@@ -140,7 +140,7 @@ export default function Header () {
             <div className={s.root}>
               <Link href='/'>
                 <a className={s.root__logo} onClick={tapRoot}>
-                  <img src='/img/logo.svg' alt='Universal Cube Resort' width={49.12} height={32} />
+                  <img src='/img/logo.png' alt='Universal Cube Resort' width={40} height={40} />
                 </a>
               </Link>
             </div>
