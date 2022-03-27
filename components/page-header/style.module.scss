@@ -1,0 +1,69 @@
+@import '@/styles/utils/utils';
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  height: 400px;
+  padding: 0 24px;
+  margin: 24px auto 0;
+
+  @include media('<phone') {
+    padding: 0;
+    height: 200px;
+    margin-top: 0;
+
+    .inner {
+      border-radius: 0 !important;
+
+      &::before {
+        border-radius: 0 !important;
+      }
+    }
+  }
+
+  .inner {
+    position: relative;
+    width: inherit;
+    height: inherit;
+    background-color: $c-text;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+    overflow: hidden;
+
+    &::before {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0,0,0,.3);
+      border-radius: 8px;
+    }
+  }
+
+  .inner__base {
+    position: relative;
+    width: inherit;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .title {
+      color: $c-text;
+    }
+  }
+
+  .title {
+    position: relative;
+    font-size: $font-md;
+    font-weight: 600;
+    color: $c-white;
+  }
+}

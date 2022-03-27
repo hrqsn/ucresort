@@ -1,0 +1,52 @@
+@import '@/styles/utils/utils';
+
+.container {
+  width: 100%;
+  margin-top: 240px;
+  background: $c-gray-0;
+
+  .inner {
+    padding: 128px 16px 256px;
+  }
+
+  @include media('<phone') {
+    .inner {
+      padding: 128px 16px 160px;
+    }
+  }
+
+  .links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .link {
+    font-size: $font-xs;
+    margin: 4px 16px;
+  }
+
+  .social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 48px;
+
+    div {
+      margin-right: 32px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+
+  .notice {
+    margin-top: 64px;
+    font-size: $font-xxs;
+    color: $c-gray-6;
+    text-align: center;
+    padding: 0 16px;
+  }
+}

@@ -1,0 +1,46 @@
+.section {
+  margin-top: 64px;
+
+  &:first-child {
+    margin-top: 0;
+  }
+
+  h4 {
+    font-size: $font-base;
+    font-weight: 600;
+  }
+
+  &__header {
+    font-size: $font-base;
+    font-weight: 600;
+  }
+
+  .section__body {
+    font-size: $font-sm;
+    margin-top: 24px;
+
+    p {
+      margin-top: 16px;
+
+      @include media('<phone') {
+        br {
+          display: none;
+        }
+      }
+    }
+
+    li:not(:first-child) {
+      margin-top: 16px;
+    }
+
+    a.underline {
+      text-decoration: underline;
+    }
+  }
+
+  .section__description {
+    font-size: $font-sm;
+    margin-top: 24px;
+    color: $c-gray-4;
+  }
+}

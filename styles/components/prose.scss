@@ -1,0 +1,119 @@
+.prose {
+  font-size: $font-sm;
+  line-height: 1.6;
+
+  @include media('<phone') {
+    font-size: $font-sm;
+  }
+}
+
+.prose blockquote {
+  font-weight: normal;
+  border-left: 2px solid $c-border;
+}
+
+.prose figure figcaption {
+  text-align: center
+}
+
+.prose figure {
+  margin-top: 48px;
+}
+
+.prose figcaption {
+  margin-top: 8px;
+  font-size: $font-sm;
+  color: $c-gray-6;
+}
+
+.prose img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.prose a {
+  color: $c-primary;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.prose p {
+  margin-top: 16px;
+}
+
+.prose b,
+.prose strong {
+  font-weight: 600;
+}
+
+.prose h1,
+.prose h2,
+.prose h3,
+.prose h4,
+.prose h5,
+.prose h6 {
+  font-weight: 600;
+}
+
+.prose h1,
+.prose h2 {
+  margin-top: 64px;
+}
+.prose h4 {
+  margin-top: 48px;
+}
+
+.prose h5 {
+  margin-top: 24px;
+}
+
+.prose h1 {
+  font-size: $font-lg;
+}
+
+.prose h2 {
+  font-size: $font-md;
+}
+
+.prose ul {
+  margin-top: 24px;
+}
+
+.prose li {
+  list-style: inside;
+}
+
+.prose table {
+  width: 100%;
+  table-layout: auto;
+  text-align: left;
+  margin-top: 24px;
+}
+
+.prose thead {
+  font-weight: 600;
+}
+
+.prose thead th {
+  vertical-align: bottom;
+}
+
+.prose tbody tr {
+  border-top: 1px solid $c-border;
+
+  &:first-child {
+    border: none;
+  }
+}
+
+.prose tbody td {
+  vertical-align: top;
+  
+  &:first-child {
+    padding: 12px 12px 12px 0;
+  }
+
+  &:last-child {
+    padding: 12px 0 12px 12px;
+  }
+}

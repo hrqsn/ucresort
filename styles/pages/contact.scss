@@ -1,0 +1,14 @@
+.section-contact {
+  text-align: center;
+
+  @include media('<phone') {
+    text-align: left;
+  }
+
+  a {
+    margin-top: 24px;
+    font-size: $font-sm;
+    color: $c-primary;
+    text-decoration: underline;
+  }
+}
